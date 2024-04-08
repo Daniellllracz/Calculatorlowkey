@@ -7,24 +7,24 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="293">
     <Grid Margin="0,0,0,-6">
-        <Button x:Name="zero" Content="0" HorizontalAlignment="Left" Height="34" Margin="121,390,0,0" VerticalAlignment="Top" Width="47"/>
-        <Button x:Name="one" Content="1" HorizontalAlignment="Left" Height="34" Margin="69,351,0,0" VerticalAlignment="Top" Width="47"/>
-        <Button x:Name="two" Content="2" HorizontalAlignment="Left" Height="34" Margin="121,351,0,0" VerticalAlignment="Top" Width="47"/>
-        <Button x:Name="three" Content="3" HorizontalAlignment="Left" Height="34" Margin="173,351,0,0" VerticalAlignment="Top" Width="47"/>
-        <Button x:Name="four" Content="4" HorizontalAlignment="Left" Height="34" Margin="69,312,0,0" VerticalAlignment="Top" Width="47"/>
-        <Button Content="5" HorizontalAlignment="Left" Height="34" Margin="121,312,0,0" VerticalAlignment="Top" Width="47"/>
-        <Button x:Name="six" Content="6" HorizontalAlignment="Left" Height="34" Margin="173,312,0,0" VerticalAlignment="Top" Width="47"/>
-        <Button x:Name="seven" Content="7" HorizontalAlignment="Left" Height="34" Margin="69,273,0,0" VerticalAlignment="Top" Width="47"/>
-        <Button x:Name="eight" Content="8" HorizontalAlignment="Left" Height="34" Margin="121,273,0,0" VerticalAlignment="Top" Width="47"/>
-        <Button x:Name="nine" Content="9" HorizontalAlignment="Left" Height="34" Margin="173,273,0,0" VerticalAlignment="Top" Width="47"/>
-        <Button x:Name="times" Content="*" HorizontalAlignment="Left" Height="34" Margin="225,390,0,0" VerticalAlignment="Top" Width="47"/>
-        <Button x:Name="plus" Content="+" HorizontalAlignment="Left" Height="34" Margin="225,351,0,0" VerticalAlignment="Top" Width="47"/>
-        <Button x:Name="minus" Content="-" HorizontalAlignment="Left" Height="34" Margin="225,312,0,0" VerticalAlignment="Top" Width="47"/>
-        <Button x:Name="delete" Content="DEL" HorizontalAlignment="Left" Height="34" Margin="225,273,0,0" VerticalAlignment="Top" Width="47"/>
-        <Button x:Name="equel" Content="=" HorizontalAlignment="Left" Height="34" Margin="173,390,0,0" VerticalAlignment="Top" Width="47"/>
-        <Button x:Name="division" Content="/" HorizontalAlignment="Left" Height="34" Margin="69,390,0,0" VerticalAlignment="Top" Width="47"/>
-        <Button x:Name="a" Content="0" HorizontalAlignment="Left" Height="34" Margin="17,351,0,0" VerticalAlignment="Top" Width="47"/>
-        <Button x:Name="bero" Content="0" HorizontalAlignment="Left" Height="34" Margin="17,390,0,0" VerticalAlignment="Top" Width="47"/>
+        <Button x:Name="zero" Content="0" HorizontalAlignment="Left" Height="34" Margin="121,390,0,0" VerticalAlignment="Top" Width="47" Click="zero_Click"/>
+        <Button x:Name="one" Content="1" HorizontalAlignment="Left" Height="34" Margin="69,351,0,0" VerticalAlignment="Top" Width="47" Click="one_Click"/>
+        <Button x:Name="two" Content="2" HorizontalAlignment="Left" Height="34" Margin="121,351,0,0" VerticalAlignment="Top" Width="47" Click="two_Click"/>
+        <Button x:Name="three" Content="3" HorizontalAlignment="Left" Height="34" Margin="173,351,0,0" VerticalAlignment="Top" Width="47" Click="three_Click"/>
+        <Button x:Name="four" Content="4" HorizontalAlignment="Left" Height="34" Margin="69,312,0,0" VerticalAlignment="Top" Width="47" Click="four_Click"/>
+        <Button Content="5" HorizontalAlignment="Left" Height="34" Margin="121,312,0,0" VerticalAlignment="Top" Width="47" Click="Button_Click"/>
+        <Button x:Name="six" Content="6" HorizontalAlignment="Left" Height="34" Margin="173,312,0,0" VerticalAlignment="Top" Width="47" Click="six_Click"/>
+        <Button x:Name="seven" Content="7" HorizontalAlignment="Left" Height="34" Margin="69,273,0,0" VerticalAlignment="Top" Width="47" Click="seven_Click"/>
+        <Button x:Name="eight" Content="8" HorizontalAlignment="Left" Height="34" Margin="121,273,0,0" VerticalAlignment="Top" Width="47" Click="eight_Click"/>
+        <Button x:Name="nine" Content="9" HorizontalAlignment="Left" Height="34" Margin="173,273,0,0" VerticalAlignment="Top" Width="47" Click="nine_Click"/>
+        <Button x:Name="times" Content="*" HorizontalAlignment="Left" Height="34" Margin="225,390,0,0" VerticalAlignment="Top" Width="47" Click="times_Click"/>
+        <Button x:Name="plus" Content="+" HorizontalAlignment="Left" Height="34" Margin="225,351,0,0" VerticalAlignment="Top" Width="47" Click="plus_Click"/>
+        <Button x:Name="minus" Content="-" HorizontalAlignment="Left" Height="34" Margin="225,312,0,0" VerticalAlignment="Top" Width="47" Click="minus_Click"/>
+        <Button x:Name="delete" Content="DEL" HorizontalAlignment="Left" Height="34" Margin="225,273,0,0" VerticalAlignment="Top" Width="47" Click="delete_Click"/>
+        <Button x:Name="equel" Content="=" HorizontalAlignment="Left" Height="34" Margin="173,390,0,0" VerticalAlignment="Top" Width="47" Click="equel_Click"/>
+        <Button x:Name="division" Content="/" HorizontalAlignment="Left" Height="34" Margin="69,390,0,0" VerticalAlignment="Top" Width="47" Click="division_Click"/>
+        <Button x:Name="a" Content="√" HorizontalAlignment="Left" Height="34" Margin="17,351,0,0" VerticalAlignment="Top" Width="47" Click="a_Click"/>
+        <Button x:Name="square" Content="^" HorizontalAlignment="Left" Height="34" Margin="17,390,0,0" VerticalAlignment="Top" Width="47" Click="bero_Click"/>
         <Label x:Name="results" Content="" HorizontalAlignment="Left" Height="31" Margin="69,237,0,0" VerticalAlignment="Top" Width="203" Background="#FFD4D4D4"/>
         <CheckBox Content="" HorizontalAlignment="Left" Margin="46,282,0,0" VerticalAlignment="Top" Width="18"/>
 
